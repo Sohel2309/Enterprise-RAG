@@ -27,4 +27,4 @@ rag311/
 Thumbs.db
 
 # Logs
-*.log
+*.log".streamlit/secrets.toml" 
