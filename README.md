@@ -126,7 +126,7 @@ Enterprise-RAG/
 
 
 
-Fixed-size chunking outperformed sentence-based by \*\*17%\*\* on context precision. Evaluated on 50 ArXiv papers with 355 QA pairs.
+Fixed-size chunking outperformed sentence-based by **17%** on context precision. Evaluated on 50 ArXiv papers with 355 QA pairs.
 
 
 
@@ -144,5 +144,5 @@ Fixed-size chunking outperformed sentence-based by \*\*17%\*\* on context precis
 
 
 
-\*\*MIT License\*\* | Last Updated: June 2026
+**MIT License** | Last Updated: June 2026
 
