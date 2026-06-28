@@ -3,14 +3,13 @@ langchain==0.2.16
 langchain-community==0.2.16
 langchain-openai==0.1.23
 langchain-anthropic==0.1.23
-llama-index==0.10.68
 openai==1.45.0
 anthropic==0.34.2
 langchain-experimental==0.0.64
 nltk==3.9.1
 
 # Vector Stores
-faiss-cpu==1.8.0
+faiss-cpu==1.12.0
 qdrant-client==1.11.1
 
 # Retrieval
