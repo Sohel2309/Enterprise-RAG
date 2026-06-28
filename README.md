@@ -6,13 +6,13 @@
 
 
 
-\[!\[Live Demo](https://img.shields.io/badge/Live\_Demo-Visit-blue?style=flat)](https://sohel2309-enterprise-rag.hf.space)
+[![Live Demo](https://img.shields.io/badge/Live\_Demo-Visit-blue?style=flat)](https://sohel2309-enterprise-rag.hf.space)
 
-\[!\[GitHub](https://img.shields.io/badge/Code-Repository-black?style=flat)](https://github.com/Sohel2309/Enterprise-RAG)
+[![GitHub](https://img.shields.io/badge/Code-Repository-black?style=flat)](https://github.com/Sohel2309/Enterprise-RAG)
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -20,7 +20,7 @@ Enterprise RAG Platform combines BM25 sparse + BGE dense embeddings with Cohere 
 
 
 
-\## 📊 Key Results
+## 📊 Key Results
 
 
 
@@ -38,29 +38,29 @@ Enterprise RAG Platform combines BM25 sparse + BGE dense embeddings with Cohere 
 
 
 
-\## 🏗️ Architecture
+## 🏗️ Architecture
 
 
 
-\*\*Retrieval Pipeline:\*\*
+**Retrieval Pipeline:**
 
-\- BM25 (sparse) + BGE-large embeddings (dense) with RRF fusion
+- BM25 (sparse) + BGE-large embeddings (dense) with RRF fusion
 
-\- Cohere cross-encoder reranking (top-60 → top-10)
+- Cohere cross-encoder reranking (top-60 → top-10)
 
-\- DeBERTa-v3 NLI hallucination detection per-chunk
-
-
-
-\*\*Generation:\*\*
-
-\- Groq Llama 3.3 70B with 3-turn conversation memory
-
-\- Automatic session management + real-time document ingestion
+- DeBERTa-v3 NLI hallucination detection per-chunk
 
 
 
-\## 🚀 Tech Stack
+**Generation:**
+
+- Groq Llama 3.3 70B with 3-turn conversation memory
+
+- Automatic session management + real-time document ingestion
+
+
+
+## 🚀 Tech Stack
 
 
 
@@ -68,33 +68,33 @@ FastAPI · Streamlit · FAISS · Qdrant · BGE Embeddings · Cohere Reranking ·
 
 
 
-\## ⚡ Quick Start
+## ⚡ Quick Start
 
 
 
 ```bash
 
-\# Install
+# Install
 
 pip install -r requirements.txt
 
 
 
-\# Run locally
+# Run locally
 
-uvicorn api.rag\_api:app --reload --port 8000  # Terminal 1
+uvicorn api.rag_api:app --reload --port 8000  # Terminal 1
 
-streamlit run ui/streamlit\_app.py             # Terminal 2
+streamlit run ui/streamlit_app.py             # Terminal 2
 
 
 
-\# Visit http://localhost:8501
+# Visit http://localhost:8501
 
 ```
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 ├── api/                    # FastAPI backend
 
@@ -124,7 +124,7 @@ streamlit run ui/streamlit\_app.py             # Terminal 2
 
 
 
-\## 🎯 Features
+## 🎯 Features
 
 
 
@@ -142,7 +142,7 @@ streamlit run ui/streamlit\_app.py             # Terminal 2
 
 
 
-\## 📈 Benchmark
+## 📈 Benchmark
 
 
 
@@ -150,17 +150,17 @@ Fixed-size chunking outperformed sentence-based by \*\*17%\*\* on context precis
 
 
 
-\## 🔗 Links
+## 🔗 Links
 
 
 
-\- \*\*Live Demo:\*\* https://sohel2309-enterprise-rag.hf.space
+- **Live Demo:** https://sohel2309-enterprise-rag.hf.space
 
-\- \*\*Code:\*\* https://github.com/Sohel2309/Enterprise-RAG
+- **Code:** https://github.com/Sohel2309/Enterprise-RAG
 
 
 
-\---
+---
 
 
 
