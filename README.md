@@ -90,31 +90,17 @@ streamlit run ui/streamlit_app.py             # Terminal 2
 
 ## 📁 Project Structure
 
-├── api/                    # FastAPI backend
-
-
-
-├── ingestion/              # PDF/DOCX parsing + 5 chunking strategies
-
-
-
-├── retrieval/              # BM25 + FAISS + Cohere reranking
-
-
-
-├── generation/             # Groq LLM client
-
-
-
-├── evaluation/             # RAGAS + hallucination detection
-
-
-
-├── ui/                     # Streamlit dashboard (3 tabs)
-
-
-
-└── data/processed/         # Pre-indexed chunks (FAISS + BM25)
+```text
+Enterprise-RAG/
+├── api/                 # FastAPI backend
+├── ingestion/           # PDF/DOCX parsing + 5 chunking strategies
+├── retrieval/           # BM25 + FAISS + Cohere reranking
+├── generation/          # Groq LLM client
+├── evaluation/          # RAGAS + hallucination detection
+├── ui/                  # Streamlit dashboard (3 tabs)
+└── data/
+    └── processed/       # Pre-indexed chunks (FAISS + BM25)
+```
 
 
 
