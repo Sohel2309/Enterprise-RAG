@@ -28,9 +28,15 @@ Production RAG system with hybrid retrieval, RAGAS evaluation, and conversation 
 
 \## Live Demo
 
-Ask questions about RAG, retrieval, and machine learning research.
 
-Searching across 7,492 indexed chunks from 50 ArXiv papers.
+
+&#x20;  🔴 \*\*\[Try the Live Demo](https://sohel2309-enterprise-rag.hf.space)\*\*
+
+
+
+&#x20;  Ask questions about RAG, retrieval, and machine learning research.
+
+&#x20;  Searching across 7,536 indexed chunks from 50 ArXiv papers.
 
 
 
