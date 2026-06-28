@@ -1,0 +1,4 @@
+@echo off
+call conda activate rag311
+cd /d C:\Users\Acer\enterprise-rag
+cmd

@@ -1,0 +1,37 @@
+question,faithfulness,answer_relevancy,context_precision,context_recall
+What is the title of the dataset introduced by Payal Bajaj et al. in 2016?,0.8,1.0,0.9,0.8
+Who are the authors of the paper 'Autoregressive Search Engines: Generating'?,0.0,1.0,0.9,0.9
+What is the year of publication for the paper 'Autoregressive Search Engines: Generating'?,0.0,1.0,0.8,0.0
+What approach was used to identify relevant snippets from the text?,0.0,1.0,1.0,1.0
+What is Regex an abbreviation for?,0.0,1.0,1.0,0.9
+Why was Regex chosen over more complex retrieval models?,0.0,1.0,0.8,0.8
+What is an alternative retrieval model to Regex?,0.0,1.0,0.0,0.0
+What does RAG stand for in the context of the provided text?,0.0,1.0,0.0,0.8
+What dataset was used to evaluate the top-10 retrieval accuracy?,0.0,1.0,1.0,0.0
+What is the highest retrieval accuracy achieved by the hybrid query approach?,0.0,1.0,0.8,0.0
+What encoder was used in the hybrid query approach with the highest retrieval accuracy?,0.0,1.0,0.8,0.8
+What is the name of the fields used in the hybrid query approach with the highest retrieval accuracy?,0.5,0.9,0.8,0.2
+What is the figure number that reveals the findings of the hybrid query approach?,0.0,1.0,0.8,0.5
+What are the first two numbers mentioned in the text?,0.0,0.8,0.8,0.0
+What are the numbers mentioned after the term 'what_is'?,0.0,0.8,0.0,0.0
+What is the name of the open-source chatbot that impresses GPT-4 with 90% ChatGPT quality?,1.0,1.0,1.0,1.0
+What is the name of the foundation language models described by H. Touvron et al.?,0.0,1.0,0.0,0.2
+In what year was the Vicuna chatbot described by S. Zhuang et al.?,0.0,1.0,1.0,1.0
+Where can information about Vicuna be found online?,0.4,0.9,0.8,0.5
+What is the size of the Large Size models?,0.0,0.8,0.0,0.0
+What does T ′ represent in the given equation?,0.0,0.2,0.0,0.0
+What is the purpose of RIND?,1.0,1.0,1.0,0.2
+What is used to integrate the retrieved knowledge?,0.0,0.9,0.8,0.0
+How are the external knowledge references structured in the prompt template?,0.8,1.0,0.9,0.0
+What is the LLM asked to do based on the provided information?,0.5,1.0,0.8,0.0
+What percentage of queries were sampled from WikiPassageQA?,1.0,1.0,1.0,0.5
+What type of correlation was observed between reranker-assigned benefits and downstream quality?,0.8,1.0,1.0,1.0
+What is the value of the Pearson correlation coefficient?,0.0,0.8,0.0,0.83
+What metric is used to measure the quality of the responses?,0.0,0.9,0.8,0.0
+What figure shows the impact of chunk candidate counts on WikiPassageQA?,0.0,1.0,0.9,0.0
+Who proposed a prompt-tuning method in 2022?,0.8,1.0,0.9,0.1
+What year was the prompt-tuning method proposed?,0.0,1.0,0.0,0.0
+What type of modeling uses the meme text and image caption as a prompt?,0.0,1.0,0.8,0.2
+Who developed masked language modeling?,0.0,0.9,0.0,0.0
+What type of paradigm do existing harmful meme detection approaches use?,0.8,0.8,0.8,0.8
+In what year was the technical report published?,0.0,1.0,0.0,0.0

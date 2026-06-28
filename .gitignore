@@ -1,0 +1,30 @@
+# API Keys - NEVER commit these
+.env
+
+# Large data folders
+data/raw/
+data/uploads/
+data/qdrant_storage/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+rag311/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
