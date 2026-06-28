@@ -23,17 +23,11 @@ Enterprise RAG Platform combines BM25 sparse + BGE dense embeddings with Cohere 
 ## 📊 Key Results
 
 
-
 | Metric | Score |
-
 |--------|-------|
-
-| Answer Relevancy | \*\*0.936\*\* ⭐ |
-
+| Answer Relevancy | **0.936** ⭐ |
 | Context Precision | 0.636 |
-
 | Indexed Chunks | 7,536 |
-
 | Evaluated QA Pairs | 355 |
 
 
