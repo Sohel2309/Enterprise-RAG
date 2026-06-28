@@ -1,6 +1,0 @@
-,faithfulness,answer_relevancy,context_precision,context_recall
-fixed,0.0,0.0,0.0,0.0
-recursive,0.0,0.0,0.0,0.0
-sentence,0.0,0.0,0.0,0.0
-semantic,0.0,0.0,0.0,0.0
-sliding_window,0.0,0.0,0.0,0.0

@@ -1,7 +1,8 @@
-# API Keys - NEVER commit these
+# API Keys
 .env
+.streamlit/secrets.toml
 
-# Large data folders
+# Large data folders - NOT uploaded
 data/raw/
 data/uploads/
 data/qdrant_storage/
@@ -10,22 +11,17 @@ data/qdrant_storage/
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
 
 # Virtual environment
 venv/
 env/
-rag311/
-
-# IDE files
-.vscode/
-.idea/
 
 # OS files
 .DS_Store
 Thumbs.db
 
 # Logs
-*.log".streamlit/secrets.toml" 
-.streamlit/secrets.toml
+*.log
+
+# Temp files
+terminal_open.txt
