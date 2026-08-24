@@ -1,0 +1,18 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.benchmarks/
+
+# Local data
+data/qdrant_storage/
+data/raw/
+data/uploads/
+
+# Generated indexes
+data/processed/faiss_index.bin
+data/processed/bm25_index.pkl
